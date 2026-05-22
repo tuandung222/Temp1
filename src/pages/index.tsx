@@ -78,21 +78,35 @@ function LectureGrid(): ReactNode {
             title="Static Analysis I (BMC + SMT)"
             description="Đi sâu vào cách dịch chương trình C thành công thức SMT, encoding số nguyên, floating-point và pointer."
             to="/docs/02-static-analysis-i/01-overview"
-            status="wip"
+            status="ready"
           />
           <LectureCard
             number="03"
             title="Static Analysis II (Concurrency)"
             description="Kiểm chứng chương trình đa luồng: context-bounded analysis, lazy exploration, sequentialization."
             to="/docs/03-static-analysis-ii/01-overview"
-            status="wip"
+            status="ready"
           />
           <LectureCard
             number="04"
             title="Dynamic Analysis (Fuzzing)"
             description="Testing, coverage criteria, runtime monitoring với LTL/Büchi, và fuzzing từ AFL đến whitebox symbolic execution."
             to="/docs/04-dynamic-analysis/01-overview"
-            status="wip"
+            status="ready"
+          />
+          <LectureCard
+            number="05"
+            title="Case Study (Tư vấn dự án)"
+            description="Áp dụng kỹ thuật đã học vào 4 bối cảnh thực tế: Web/SaaS, Fintech, IoT, Doanh nghiệp số hoá."
+            to="/docs/05-case-study/01-overview"
+            status="ready"
+          />
+          <LectureCard
+            number="06"
+            title="Topics Bổ sung"
+            description="Cryptography basics, OWASP Top 10 chi tiết, CBMC tutorial, Secure SDLC + Microsoft SDL + OWASP SAMM."
+            to="/docs/06-additional-topics/01-overview"
+            status="ready"
           />
         </div>
       </div>
