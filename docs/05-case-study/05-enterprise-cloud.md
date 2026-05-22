@@ -38,12 +38,12 @@ Enterprise face threat khác startup:
 
 | Threat | Mức độ | Loss potential |
 |---|---|---|
-| Ransomware | Critical | $$$$ (millions USD) |
-| Insider data theft (M&A info, IP) | High | $$$ |
-| Phishing → compromise admin | Critical | $$$$ |
-| Cloud misconfiguration → data leak | High | $$$ |
-| Third-party breach (vendor) | High | $$$ |
-| Compliance fine | Medium | $$ |
+| Ransomware | Critical | rất cao (millions USD) |
+| Insider data theft (M and A info, IP) | High | cao |
+| Phishing → compromise admin | Critical | rất cao |
+| Cloud misconfiguration → data leak | High | cao |
+| Third-party breach (vendor) | High | cao |
+| Compliance fine | Medium | trung bình |
 
 Top attacker tactic:
 
