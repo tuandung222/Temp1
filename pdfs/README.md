@@ -8,7 +8,7 @@ Sinh tự động từ markdown source qua `pandoc + xelatex`. Có mục lục, 
 
 | File | Cụm | Kích thước |
 |---|---|---|
-| [`lecture-1-2-full.pdf`](./lecture-1-2-full.pdf) | Lecture 1-2: Giới thiệu Software Security | ~245 KB |
+| [`lecture-1-2-full.pdf`](./lecture-1-2-full.pdf) | Lecture 1 & 2: Giới thiệu Software Security | ~245 KB |
 | [`lecture-3-full.pdf`](./lecture-3-full.pdf) | Lecture 3: Static Analysis I (BMC + SMT) | ~214 KB |
 | [`lecture-4-full.pdf`](./lecture-4-full.pdf) | Lecture 4: Static Analysis II (Concurrency) | ~190 KB |
 | [`lecture-5-full.pdf`](./lecture-5-full.pdf) | Lecture 5: Dynamic Analysis (Fuzzing) | ~199 KB |
@@ -22,7 +22,7 @@ Slide gốc có hình ảnh, sơ đồ trực quan.
 
 | File | Cụm | Kích thước |
 |---|---|---|
-| [`lecture-1-2.pdf`](./lecture-1-2.pdf) | Lecture 1-2 (slide) | 8.9 MB |
+| [`lecture-1-2.pdf`](./lecture-1-2.pdf) | Lecture 1 & 2 (slide) | 8.9 MB |
 | [`lecture-3.pdf`](./lecture-3.pdf) | Lecture 3 (slide) | 9.1 MB |
 | [`lecture-4.pdf`](./lecture-4.pdf) | Lecture 4 (slide) | 4.7 MB |
 | [`lecture-5.pdf`](./lecture-5.pdf) | Lecture 5 (slide) | 3.7 MB |

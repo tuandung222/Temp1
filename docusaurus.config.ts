@@ -127,7 +127,7 @@ const config: Config = {
           title: 'Bài giảng',
           items: [
             {label: 'Giới thiệu', to: '/docs/intro'},
-            {label: 'Lecture 1-2', to: '/docs/01-introduction/01-overview'},
+            {label: 'Lecture 1 & 2', to: '/docs/01-introduction/01-overview'},
             {label: 'Lecture 3', to: '/docs/02-static-analysis-i/01-overview'},
             {label: 'Lecture 4', to: '/docs/03-static-analysis-ii/01-overview'},
             {label: 'Lecture 5', to: '/docs/04-dynamic-analysis/01-overview'},

@@ -11,7 +11,7 @@ description: Cách BMC tool dịch int, unsigned, signed, char và float, double
 
 ## Vì sao bài này quan trọng?
 
-Ở [bài 1.6](../01-introduction/06-bmc-and-smt-basics), ta đã thấy một ví dụ kinh điển: hàm `abs(x)` được verify với theory `Int` thì pass, nhưng với theory `BitVec` 32-bit thì fail với input `INT_MIN`. Sự khác biệt này không phải lỗi của tool, mà phản ánh đúng sự khác biệt giữa **số nguyên toán học** và **số nguyên máy tính**.
+Ở [bài 2.2](../01-introduction/06-bmc-and-smt-basics), ta đã thấy một ví dụ kinh điển: hàm `abs(x)` được verify với theory `Int` thì pass, nhưng với theory `BitVec` 32-bit thì fail với input `INT_MIN`. Sự khác biệt này không phải lỗi của tool, mà phản ánh đúng sự khác biệt giữa **số nguyên toán học** và **số nguyên máy tính**.
 
 Nếu bạn encode sai, hai kịch bản đáng sợ có thể xảy ra:
 

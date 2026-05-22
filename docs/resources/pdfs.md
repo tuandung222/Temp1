@@ -15,7 +15,7 @@ Các file PDF dưới đây gộp toàn bộ nội dung của mỗi cụm bài g
 
 | Cụm | Nội dung | File | Kích thước |
 |---|---|---|---|
-| Lecture 1-2 | Giới thiệu Software Security, vulnerabilities, formal verification | [lecture-1-2-full.pdf](pathname:///pdfs/lectures/lecture-1-2-full.pdf) | ~245 KB |
+| Lecture 1 & 2 | Giới thiệu Software Security, vulnerabilities, formal verification | [lecture-1-2-full.pdf](pathname:///pdfs/lectures/lecture-1-2-full.pdf) | ~245 KB |
 | Lecture 3 | Static Analysis I (BMC + SMT chi tiết) | [lecture-3-full.pdf](pathname:///pdfs/lectures/lecture-3-full.pdf) | ~214 KB |
 | Lecture 4 | Static Analysis II (Concurrency) | [lecture-4-full.pdf](pathname:///pdfs/lectures/lecture-4-full.pdf) | ~190 KB |
 | Lecture 5 | Dynamic Analysis (Testing, Monitoring, Fuzzing) | [lecture-5-full.pdf](pathname:///pdfs/lectures/lecture-5-full.pdf) | ~199 KB |
@@ -29,7 +29,7 @@ Các file PDF gốc đính kèm để xem hình ảnh slide, sơ đồ trực qu
 
 | Cụm | File | Kích thước |
 |---|---|---|
-| Lecture 1-2 (slide) | [lecture-1-2.pdf](pathname:///pdfs/lecture-1-2.pdf) | 8.9 MB |
+| Lecture 1 & 2 (slide) | [lecture-1-2.pdf](pathname:///pdfs/lecture-1-2.pdf) | 8.9 MB |
 | Lecture 3 (slide) | [lecture-3.pdf](pathname:///pdfs/lecture-3.pdf) | 9.1 MB |
 | Lecture 4 (slide) | [lecture-4.pdf](pathname:///pdfs/lecture-4.pdf) | 4.7 MB |
 | Lecture 5 (slide) | [lecture-5.pdf](pathname:///pdfs/lecture-5.pdf) | 3.7 MB |

@@ -195,7 +195,7 @@ Nếu ta muốn check property "return value ≥ 0", với mỗi path:
 
 Cả hai path đều OK, property chứng minh được.
 
-Nhưng nếu encode bitvector 32-bit, path 2 cần $x < 0 \land -x < 0$. Trong bitvector, $x = $ INT_MIN cho $-x = $ INT_MIN (overflow). Solver tìm được model $x = -2^{31}$, vi phạm property. Counterexample này chính xác lại là cái mà BMC tìm được ở [bài 1.6](../01-introduction/06-bmc-and-smt-basics).
+Nhưng nếu encode bitvector 32-bit, path 2 cần $x < 0 \land -x < 0$. Trong bitvector, $x = $ INT_MIN cho $-x = $ INT_MIN (overflow). Solver tìm được model $x = -2^{31}$, vi phạm property. Counterexample này chính xác lại là cái mà BMC tìm được ở [bài 2.2](../01-introduction/06-bmc-and-smt-basics).
 
 Symbolic execution và BMC rất gần nhau về bản chất. Sự khác biệt:
 

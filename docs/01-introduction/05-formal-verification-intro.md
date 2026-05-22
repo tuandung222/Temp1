@@ -1,11 +1,11 @@
 ---
 id: 05-formal-verification-intro
-title: 1.5 Giới thiệu Formal Verification
+title: 2.1 Giới thiệu Formal Verification
 sidebar_position: 5
 description: Tại sao testing không đủ, khái niệm property, soundness vs completeness, ba họ kỹ thuật chính (model checking, theorem proving, abstract interpretation).
 ---
 
-# 1.5 Giới thiệu Formal Verification
+# 2.1 Giới thiệu Formal Verification
 
 > **Tóm tắt một dòng**: Formal verification dùng toán học để **chứng minh** một chương trình thoả một property, thay vì chỉ test một vài trường hợp. Ba họ kỹ thuật chính là model checking (tự động, scale tới chương trình lớn), theorem proving (tổng quát nhất nhưng cần human), và abstract interpretation (compromise giữa hai bên).
 
@@ -133,7 +133,7 @@ Có hai cách hiện thực model checking:
 
 **Explicit-state model checking** liệt kê hết các state, lưu trong hash table, kiểm tra từng cái. Phù hợp với chương trình nhỏ. Tool: SPIN, NuSMV.
 
-**Symbolic model checking** biểu diễn cả tập state bằng một công thức (BDD hoặc SMT formula), không liệt kê từng cái. Scale tới chương trình lớn hơn nhiều. **Bounded Model Checking (BMC)** mà chúng ta sẽ học chi tiết là một biến thể symbolic, giới hạn depth $k$ để tránh state explosion. Chi tiết ở [bài 1.6](./06-bmc-and-smt-basics) và [Lecture 3](../02-static-analysis-i/01-overview).
+**Symbolic model checking** biểu diễn cả tập state bằng một công thức (BDD hoặc SMT formula), không liệt kê từng cái. Scale tới chương trình lớn hơn nhiều. **Bounded Model Checking (BMC)** mà chúng ta sẽ học chi tiết là một biến thể symbolic, giới hạn depth $k$ để tránh state explosion. Chi tiết ở [bài 2.2](./06-bmc-and-smt-basics) và [Lecture 3](../02-static-analysis-i/01-overview).
 
 Thế mạnh của model checking: **tự động hoàn toàn**, không cần human input. Bạn đưa code và property vào, tool chạy và cho ra kết quả. Phù hợp cho developer không phải expert toán.
 
@@ -249,4 +249,4 @@ Trong [Lecture 3-4](../02-static-analysis-i/01-overview), ta sẽ học cả ba 
 
 ---
 
-**Tiếp theo**: [1.6 BMC và SMT basics](./06-bmc-and-smt-basics)
+**Tiếp theo**: [2.2 BMC và SMT basics](./06-bmc-and-smt-basics)

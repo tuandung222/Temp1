@@ -364,4 +364,4 @@ Cách phòng:
 
 ---
 
-**Tiếp theo**: [1.5 Giới thiệu Formal Verification](./05-formal-verification-intro)
+**Tiếp theo**: [2.1 Giới thiệu Formal Verification](./05-formal-verification-intro)

@@ -11,7 +11,7 @@ description: Cách BMC xử lý vòng lặp bằng unwinding, unwinding assertio
 
 ## Đặt vấn đề: tại sao loop khó?
 
-Trong [bài 1.6](../01-introduction/06-bmc-and-smt-basics), ta đã thấy ý tưởng cốt lõi của BMC: encode chương trình thành công thức $\Phi_k$ rồi giải bằng SMT. Một câu hỏi tự nhiên: nếu chương trình có vòng lặp, mà vòng lặp có thể chạy vô hạn, làm sao encode thành công thức **hữu hạn**?
+Trong [bài 2.2](../01-introduction/06-bmc-and-smt-basics), ta đã thấy ý tưởng cốt lõi của BMC: encode chương trình thành công thức $\Phi_k$ rồi giải bằng SMT. Một câu hỏi tự nhiên: nếu chương trình có vòng lặp, mà vòng lặp có thể chạy vô hạn, làm sao encode thành công thức **hữu hạn**?
 
 Câu trả lời ngắn: **unwinding** (mở vòng lặp).
 

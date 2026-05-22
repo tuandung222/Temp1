@@ -73,7 +73,7 @@ Hai kỹ thuật chính: **KISS** (Keep It Sequential, Stupid) của Qadeer-Wu v
 
 Cụm này giả định bạn đã quen với:
 
-- BMC + SMT cơ bản (Lecture 1.6, Lecture 3 toàn bộ).
+- BMC + SMT cơ bản (bài 2.2, Lecture 3 toàn bộ).
 - Race condition cơ bản (bài 1.3).
 - Khái niệm thread, mutex, atomic operation ở mức lập trình C/C++ (đọc man page `pthread_mutex_lock` là đủ).
 

@@ -116,7 +116,7 @@ Bốn cụm bài giảng được sắp xếp theo độ phức tạp tăng dầ
 | Lecture 4 | Static analysis cho chương trình đa luồng | [Lecture 4](../03-static-analysis-ii/01-overview) |
 | Lecture 5 | Dynamic analysis: testing, monitoring, fuzzing | [Lecture 5](../04-dynamic-analysis/01-overview) |
 
-Nếu bạn muốn nhảy ngay vào kỹ thuật, có thể bắt đầu từ Lecture 3. Nhưng nếu chưa quen với khái niệm "property" hay "soundness", nên đọc trước [bài 1.5 (Giới thiệu Formal Verification)](./05-formal-verification-intro) và [bài 1.6 (BMC và SMT basics)](./06-bmc-and-smt-basics) trong cụm này để nắm vocabulary chung.
+Nếu bạn muốn nhảy ngay vào kỹ thuật, có thể bắt đầu từ Lecture 3. Nhưng nếu chưa quen với khái niệm "property" hay "soundness", nên đọc trước [bài 2.1 (Giới thiệu Formal Verification)](./05-formal-verification-intro) và [bài 2.2 (BMC và SMT basics)](./06-bmc-and-smt-basics) trong cụm này để nắm vocabulary chung.
 
 ## Tài liệu tham khảo
 

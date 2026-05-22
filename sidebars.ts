@@ -5,7 +5,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'Lecture 1-2: Giới thiệu Software Security',
+      label: 'Lecture 1 & 2: Giới thiệu Software Security',
       link: {type: 'doc', id: '01-introduction/01-overview'},
       collapsed: false,
       items: [

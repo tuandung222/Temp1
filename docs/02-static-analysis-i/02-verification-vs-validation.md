@@ -74,7 +74,7 @@ Nhược điểm: bị giới hạn bởi tính undecidable của đa số prope
 
 Ưu điểm: **đơn giản, scale tốt**. Bạn không cần tool đặc biệt để chạy code. Bug tìm thấy là bug thật, không phải false positive.
 
-Nhược điểm: chỉ tìm bug, không chứng minh được "không có bug". Bị giới hạn bởi input space (đã phân tích ở [bài 1.5](../01-introduction/05-formal-verification-intro)).
+Nhược điểm: chỉ tìm bug, không chứng minh được "không có bug". Bị giới hạn bởi input space (đã phân tích ở [bài 2.1](../01-introduction/05-formal-verification-intro)).
 
 | Tiêu chí | Static | Dynamic |
 |---|---|---|

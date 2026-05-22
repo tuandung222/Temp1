@@ -21,7 +21,7 @@ OUT_DIR = ROOT / "static" / "pdfs" / "lectures"
 # Mapping cluster -> (output filename, ordered list of source markdown files)
 CLUSTERS: list[tuple[str, str, list[Path]]] = [
     (
-        "Lecture 1-2 - Giới thiệu Software Security",
+        "Lecture 1 & 2 - Giới thiệu Software Security",
         "lecture-1-2-full.pdf",
         [
             DOCS / "intro.md",
