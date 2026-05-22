@@ -24,6 +24,12 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         '02-static-analysis-i/01-overview',
+        '02-static-analysis-i/02-verification-vs-validation',
+        '02-static-analysis-i/03-state-space-exploration',
+        '02-static-analysis-i/04-sat-and-dpll',
+        '02-static-analysis-i/05-smt-theories',
+        '02-static-analysis-i/06-encoding-numbers-and-floats',
+        '02-static-analysis-i/07-encoding-pointers-and-memory',
       ],
     },
     {
