@@ -110,9 +110,14 @@ CLUSTERS: list[tuple[str, str, list[Path]]] = [
 ]
 
 FRONT_MATTER_RE = re.compile(r"^---\n.*?\n---\n", re.DOTALL)
-# Strip Docusaurus :::admonition blocks and replace with quote-like blocks
+# Strip Docusaurus :::admonition blocks and replace with quote-like blocks.
+# Supports both legacy syntax (`:::tip Title`) and Docusaurus 3+ (`:::tip[Title]`).
 ADMONITION_RE = re.compile(
-    r":::(tip|note|warning|info|caution|danger)(?:\s+([^\n]+))?\n(.*?):::",
+    r":::(tip|note|warning|info|caution|danger)"
+    r"(?:\[([^\]]+)\]|[ \t]+([^\n]+))?"  # optional title: [Bracket] or  space-separated
+    r"\s*\n"
+    r"(.*?)"
+    r":::",
     re.DOTALL,
 )
 
@@ -123,8 +128,11 @@ def strip_frontmatter(text: str) -> str:
 
 def transform_admonitions(text: str) -> str:
     def repl(m: re.Match) -> str:
-        kind, title, body = m.group(1), m.group(2), m.group(3).strip()
-        label = (title or kind.upper()).strip()
+        kind = m.group(1)
+        bracket_title = m.group(2)
+        space_title = m.group(3)
+        body = m.group(4).strip()
+        label = (bracket_title or space_title or kind.upper()).strip()
         prefix = f"> **{label}**\n>\n"
         body_quoted = "\n".join(("> " + ln if ln else ">") for ln in body.splitlines())
         return prefix + body_quoted
