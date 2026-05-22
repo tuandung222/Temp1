@@ -235,8 +235,19 @@ def build_pdf(title: str, content: str, out_path: Path) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     # Write combined markdown to a temp file (pandoc needs a file or stdin)
     tmp_md = out_path.with_suffix(".tmp.md")
-    header = f"---\ntitle: \"{title}\"\nlang: vi-VN\ngeometry: margin=2cm\nfontsize: 11pt\n---\n\n"
+    # geometry: leave room top/bottom for header/footer
+    # subparagraph: false so titlesec can manage subsection spacing
+    header = (
+        f"---\n"
+        f"title: \"{title}\"\n"
+        f"lang: vi-VN\n"
+        f"geometry: \"margin=2cm,top=2.5cm,bottom=2.2cm\"\n"
+        f"fontsize: 11pt\n"
+        f"---\n\n"
+    )
     tmp_md.write_text(header + content, encoding="utf-8")
+
+    header_tex = ROOT / "scripts" / "_assets" / "pdf-header.tex"
 
     # Use xelatex for Unicode. Monaco (macOS) has full Vietnamese diacritic
     # coverage including stacked marks like ế, ả, ỗ which Menlo's macOS
@@ -251,8 +262,10 @@ def build_pdf(title: str, content: str, out_path: Path) -> None:
         "-V", "monofontoptions=Scale=0.82",
         "-V", "colorlinks=true",
         "-V", "linkcolor=blue",
+        "-V", "toccolor=black",
         "--toc",
-        "--toc-depth=2",
+        "--toc-depth=3",
+        "--include-in-header", str(header_tex),
         "--highlight-style=tango",
     ]
     try:
